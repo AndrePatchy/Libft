@@ -1,0 +1,25 @@
+Lift.h — your own C library
+
+Makefile allows to more easily write our build system, and conditional compiled what need to be recompiled because it has been modified.  
+
+Built systems goals are to 
+
+1. organize the magical incantations: automate the compilation and linking of source files into executables. This is really important in a project. The way Developers build source code is important
+
+2. recompile only the changes portion of the source code and the portion dependent on changed code 
+
+3. Build system should be a programming language that allows you to avoid redundant copied code 
+
+
+Build Rules
+
+Example: 
+all: <—— build rule
+$(BINARY) <—— the target of the build rule
+
+
+The following video is very helpful to understand the logic behind Makefile's: https://www.youtube.com/watch?v=DtGrdB8wQ_8
+ 
+CODE
+
+10h55min: makefile code 
